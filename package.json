@@ -1,0 +1,27 @@
+{
+  "name": "poisonous_chicken_soup",
+  "version": "1.0.0",
+  "description": "这是一个爬取毒鸡汤网站的简单引用",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GithubNewguy/poisonous_chicken_soup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GithubNewguy/poisonous_chicken_soup/issues"
+  },
+  "homepage": "https://github.com/GithubNewguy/poisonous_chicken_soup#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "superagent": "^4.1.0"
+  }
+}
